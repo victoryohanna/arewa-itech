@@ -1,0 +1,106 @@
+.about_container{
+    margin: 4rem 0;
+}
+
+.about_header{
+    display: flex;
+    justify-content: center;
+    color: #f85b5b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section_text{
+    padding: 20px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section_image{
+    display: flex;
+    justify-content: center;
+}
+
+.about_image {
+    width: 500px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url('../../images/aboutimage2.jpg');
+  } 
+
+
+  /*------------------ Goals CSS---------------------------- */
+
+.goals_container{
+    margin: 10px 0;
+}
+
+.goals_image{
+    background-image: url('../../images/aboutimage3.jpg');
+    width: auto;
+    height: 350px;
+    
+}
+
+.goals_text{
+    padding: 20px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.goals_header{
+    display: flex;
+    color: #f85b5b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*............................ Our Team Section..................................... */
+
+.team_conatiner{
+    margin: 20px 0;
+}
+.team_header{
+    display: flex;
+    color: #f85b5b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.team_text{
+    padding: 20px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.team_gallary{
+    margin: 5px;
+}
+
+.photo{
+    text-align: center;
+    
+}
+.photo > img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.image_caption h5{
+    color: #f85b5b;
+    
+}
+
+
+
+@media only screen and (max-width: 768px){ 
+    .about_imag{
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .section_text, .team_text, .goals_text{
+        font-size: 18px;
+    }
+}
+

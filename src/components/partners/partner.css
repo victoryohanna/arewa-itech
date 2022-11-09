@@ -1,0 +1,26 @@
+
+.image_container{
+  display: flex;
+  margin: 5px;
+  padding: 60px 0;
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* .image{
+   
+} */
+
+.links > img{
+    width: 250px;
+    height: 80px; 
+   
+}
+
+/* .links > img:hover{
+    background-color: blueviolet;
+} */
+

@@ -1,0 +1,12 @@
+.nav_body{
+    background: #ADD8E6; 
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+
+.links > a{
+    /* color: #ffffff; */ 
+}

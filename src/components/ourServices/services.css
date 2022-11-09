@@ -1,0 +1,31 @@
+.main_section{
+    background: #E6E6FA;
+    padding: 20px;
+    margin-top: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.title_section > h2{ 
+    /* color: #ffffff; */
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight:bold;
+} 
+ 
+.content_card{
+    /* width: 70%; */
+    /* margin: auto; */
+    padding: 25px ;
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 35px;
+    /* color: #0dadec; */
+}
+
+
+.body_content > h4{
+    text-align: center;
+}

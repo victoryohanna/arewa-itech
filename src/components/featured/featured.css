@@ -1,0 +1,64 @@
+.featured_container{
+    /* border: 1px solid black; */
+    padding: 15px 0; 
+    /* margin-top: 10px; */
+}
+
+.featured_card{  
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.featured_card-body{
+    box-shadow: 2px 2px 4px 2px gray;
+    height: 450px;
+}
+
+.featured_card-body > a{
+    /* border: 1px solid gray; */
+    text-decoration: none;
+    color: black;
+    
+}
+
+.agro_logo{
+    font-size: 40px;
+    margin: 10px 0;
+    color: green; 
+}
+
+.di_logo{
+    font-size: 40px;
+    margin: 10px 0; 
+    color: #5c7084;
+}
+
+.iFuture_logo{
+    font-size: 40px;
+    margin: 10px 0; 
+    color: #28977e;
+}
+
+@media only screen and(max-width:768px){
+    .featured_card-body{
+        width: 100%;
+        height: auto;
+        /* font-size: 14px; */
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){  
+    .featured_card-body{
+       width: 100%;
+       height: 450px;
+        font-size: 13px;
+     
+    }
+}
+
+@media only screen and (min-width:922px) and (max-width:1080px){
+    .featured_card-body{
+        font-size: 14px; 
+    }
+}
+

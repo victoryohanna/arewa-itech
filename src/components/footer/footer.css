@@ -1,0 +1,85 @@
+.footer-container {
+    align-items: center;
+    background-color: #E6E6FA;
+    opacity: 0.8;
+    margin-top:3rem;
+  }
+  
+  .footer-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    padding: 20px 0;
+    margin: auto;
+  }
+  
+  .footer-list {
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .footer-list li {
+    list-style: none;
+    
+  }
+  
+  
+  .footer-list h4 {
+    margin-bottom: 15px;
+  }
+
+  .brand_logo{
+    /* background-image: url('../../images/logo1.png'); */
+    width: 250px;
+    height: 150px;
+  }
+  
+  .footer-header-section {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    margin-bottom: 10px;
+    /* border-bottom: 3px solid #504f4f;  */
+  }
+  
+  .footer-header-section h3 {
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .footer-social_media-links {
+    font-size: 40px;
+    margin: 15px 0 15px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(139, 137, 137); */
+    /* border: 1px solid #ffffff; */
+  }
+  
+  .faFacebook,
+  .faTwitter,
+  .faLinkedIn,
+  .faInstagram {
+    margin-right: 25px;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .links:hover {
+    color: brown;
+  }
+  
+  .copyrihgt-section {
+    border-top: 1px solid #727070;
+    margin: 0;
+    padding: 30px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
