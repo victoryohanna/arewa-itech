@@ -1,10 +1,20 @@
 
 import ContactForm from "../components/contact/contactForm";
+import Geolocator from "../components/contact/map";
 
 const Contact = ()=>{
     return(
         <div className="container">
-            <ContactForm/>
+            <div className="row">
+                <div className="col-md-6">
+                   <ContactForm/> 
+                </div>
+                <div className="col-md-6">
+                   <Geolocator/> 
+                </div>
+            </div>
+            
+            
         </div>
     )
 }
