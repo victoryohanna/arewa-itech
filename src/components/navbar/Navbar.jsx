@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {FaMobile, FaEnvelope} from 'react-icons/fa'; 
 import "./navbar.css";
 
 function NavBar() {
@@ -36,17 +37,10 @@ function NavBar() {
               </Link>
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+         
+            <span><FaEnvelope/> info@arewaitech.com</span>
+            <span><FaMobile/> +2348131595178</span>
+          
         </div>
       </div>
     </nav>
