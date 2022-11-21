@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {FaMobile, FaEnvelope} from 'react-icons/fa'; 
+import {MdCall} from 'react-icons/md'
 import "./navbar.css";
 
 function NavBar() {
@@ -38,8 +39,8 @@ function NavBar() {
             </li>
           </ul>
          
-            <span><FaEnvelope/> info@arewaitech.com</span>
-            <span><FaMobile/> +2348131595178</span>
+            <span><FaEnvelope/>info@arewaitech.com  </span>
+            <span><MdCall/>+2348131595178</span>
           
         </div>
       </div>
